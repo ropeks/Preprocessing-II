@@ -1,1 +1,27 @@
-// Navigation Styles here
+.navigation {
+    border-bottom: 2px dashed silver;
+    
+    ul {
+      display: flex;
+      justify-content: space-between;
+    
+      .leftnav {
+        width: 50%;
+      }
+
+      .rightnav {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+      }
+
+      li {
+        color: @font-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.6rem;
+        padding: 20px;
+      }
+    }  
+  }
